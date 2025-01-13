@@ -16,11 +16,16 @@ body {
     font-family: serif;
     font-size: 20px;
     border-style: solid;
-}
+    border-width: 1px;
+} 
 
 a {
     text-decoration: none;
     margin: 5px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
 }
 
 #home {
@@ -30,6 +35,8 @@ a {
     margin-bottom: 1rem;
     padding: 10px;
     margin-left: -10px;
+    /* temporary tool for debugging */
+    border: 5px solid black;
 }
 
 #title {
@@ -37,10 +44,12 @@ a {
     font-weight: bold;
     margin-bottom: 1rem;
     text-align: center;
+    /* temporary tool for debugging */
+    border: 5px solid black;
 }
 
-#selections {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
+.border {
+    padding: 10px;
+    border: 5px dotted purple;
+    margin: 10px; 
 }
